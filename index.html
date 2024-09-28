@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+
+    <Head>
+
+        <meta charset="utf-8">
+        <title>testisivu</title>
+
+
+        <script src="https://unpkg.com/jparticles/browser/jparticles.base.js"></script>
+        <script src="https://unpkg.com/jparticles/browser/particle.js"></script>
+    </Head>
+
+    <body>
+
+
+    <div id="demo" style="width: 400px; height: 250px;"></div>
+
+
+        <script>
+
+            new JParticles.Particle('#demo', {
+            color: '#25bfff',
+            lineShape: 'cube',
+            range: 2000,
+            proximity: 100,
+            // Turn on parallax effect
+            parallax: true,
+            })
+
+        </script>
+
+    </body>
+
+
+</html>
